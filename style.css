@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'time';
+}
+
+li {
+    list-style: none;
+}
+
+header,
+footer {
+    background-color: #3f323f;
+    color: #ffffff;
+}
+
+img {
+    height: 250px;
+    border-radius: 50%;
+}
+
+header,
+footer,
+form,
+.section-objective,
+.section-experience,
+.section-skills,
+.section-language {
+    padding: 0 40px;
+}
+
+header {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    margin-right: 100px;
+}
+
+
+.section-form {
+    background-color: #e5d7d3;
+}
+
+.header-title {
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 16px;
+}
+
+header,
+form,
+.section-objective,
+.section-experience,
+.section-skills,
+.section-language {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.section-objective p {
+    margin-bottom: 15px;
+}
+
+.section-objective p:last-child {
+    margin-bottom: 0;
+}
+
+input,
+textarea {
+    border: none;
+    display: block;
+    background-color: transparent;
+    border-bottom: 3px solid #c6b9b5;
+    margin-bottom: 15px;
+    width: 500px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    resize: none;
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: #3f323f;
+    padding: 15px 90px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer li {
+    margin-bottom: 5px;
+}
+
+.experience-wrapper {
+    display: flex;
+}
+
+.experience-wrapper-date {
+    width: 10%;
+}
+
+.language-list {
+    padding-left: 10px;
+}
+
+.language-list__item {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.language-list__item:last-child {
+    margin-bottom: 0;
+}
+
+.language-list__item::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 7px;
+    z-index: 10;
+    width: 5px;
+    height: 5px;
+    background-color: #c0aca7;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+form > div {
+    display: flex;
+}
+
+footer {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+
+
+.footer__copyright {
+    color: #7d707d;
+}
